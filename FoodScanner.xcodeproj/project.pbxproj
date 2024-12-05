@@ -14,6 +14,17 @@
 		4D9F45572CFB5A8D000C77FA /* FoodScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9F45562CFB5A8D000C77FA /* FoodScannerTests.swift */; };
 		4D9F45612CFB5A8D000C77FA /* FoodScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9F45602CFB5A8D000C77FA /* FoodScannerUITests.swift */; };
 		4D9F45632CFB5A8D000C77FA /* FoodScannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9F45622CFB5A8D000C77FA /* FoodScannerUITestsLaunchTests.swift */; };
+		4D9F45752CFBE0D3000C77FA /* MeshGeometryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9F45742CFBE0D3000C77FA /* MeshGeometryExtensions.swift */; };
+		4D9F45772CFBE0E0000C77FA /* ImageProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9F45762CFBE0E0000C77FA /* ImageProcessing.swift */; };
+		4D9F45792CFBE117000C77FA /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9F45782CFBE117000C77FA /* Coordinator.swift */; };
+		4D9F457B2CFBE195000C77FA /* MeshExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9F457A2CFBE195000C77FA /* MeshExporter.swift */; };
+		4D9F457D2CFBEB9B000C77FA /* CVPixelBuffer+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9F457C2CFBEB9B000C77FA /* CVPixelBuffer+UIImage.swift */; };
+		4D9F457F2CFBEFD1000C77FA /* MeshResource+ARKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9F457E2CFBEFD1000C77FA /* MeshResource+ARKit.swift */; };
+		4DCAE6592CFFA1210052AEA5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCAE6582CFFA1210052AEA5 /* LoginView.swift */; };
+		4DCAE65B2CFFA4B30052AEA5 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DCAE65A2CFFA4B30052AEA5 /* Launch Screen.storyboard */; };
+		4DCAE65E2CFFA8F70052AEA5 /* LobbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCAE65D2CFFA8F70052AEA5 /* LobbyView.swift */; };
+		4DCAE6602CFFA9400052AEA5 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCAE65F2CFFA9400052AEA5 /* HealthManager.swift */; };
+		4DCAE6632CFFB3CD0052AEA5 /* OpenAIResponseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCAE6622CFFB3CD0052AEA5 /* OpenAIResponseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,19 @@
 		4D9F455C2CFB5A8D000C77FA /* FoodScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D9F45602CFB5A8D000C77FA /* FoodScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodScannerUITests.swift; sourceTree = "<group>"; };
 		4D9F45622CFB5A8D000C77FA /* FoodScannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodScannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4D9F45742CFBE0D3000C77FA /* MeshGeometryExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGeometryExtensions.swift; sourceTree = "<group>"; };
+		4D9F45762CFBE0E0000C77FA /* ImageProcessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessing.swift; sourceTree = "<group>"; };
+		4D9F45782CFBE117000C77FA /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		4D9F457A2CFBE195000C77FA /* MeshExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshExporter.swift; sourceTree = "<group>"; };
+		4D9F457C2CFBEB9B000C77FA /* CVPixelBuffer+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+UIImage.swift"; sourceTree = "<group>"; };
+		4D9F457E2CFBEFD1000C77FA /* MeshResource+ARKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MeshResource+ARKit.swift"; sourceTree = "<group>"; };
+		4DCAE6582CFFA1210052AEA5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4DCAE65A2CFFA4B30052AEA5 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		4DCAE65C2CFFA5E30052AEA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4DCAE65D2CFFA8F70052AEA5 /* LobbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyView.swift; sourceTree = "<group>"; };
+		4DCAE65F2CFFA9400052AEA5 /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		4DCAE6612CFFA9830052AEA5 /* FoodScanner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FoodScanner.entitlements; sourceTree = "<group>"; };
+		4DCAE6622CFFB3CD0052AEA5 /* OpenAIResponseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIResponseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +118,20 @@
 		4D9F45442CFB5A8B000C77FA /* FoodScanner */ = {
 			isa = PBXGroup;
 			children = (
+				4DCAE6612CFFA9830052AEA5 /* FoodScanner.entitlements */,
+				4DCAE65C2CFFA5E30052AEA5 /* Info.plist */,
+				4D9F45732CFBE0B9000C77FA /* Extensions */,
 				4D9F45452CFB5A8B000C77FA /* AppDelegate.swift */,
 				4D9F45472CFB5A8B000C77FA /* ContentView.swift */,
 				4D9F45492CFB5A8C000C77FA /* Assets.xcassets */,
 				4D9F454B2CFB5A8C000C77FA /* Preview Content */,
+				4D9F45782CFBE117000C77FA /* Coordinator.swift */,
+				4D9F457A2CFBE195000C77FA /* MeshExporter.swift */,
+				4DCAE6582CFFA1210052AEA5 /* LoginView.swift */,
+				4DCAE65A2CFFA4B30052AEA5 /* Launch Screen.storyboard */,
+				4DCAE65D2CFFA8F70052AEA5 /* LobbyView.swift */,
+				4DCAE65F2CFFA9400052AEA5 /* HealthManager.swift */,
+				4DCAE6622CFFB3CD0052AEA5 /* OpenAIResponseView.swift */,
 			);
 			path = FoodScanner;
 			sourceTree = "<group>";
@@ -125,6 +159,17 @@
 				4D9F45622CFB5A8D000C77FA /* FoodScannerUITestsLaunchTests.swift */,
 			);
 			path = FoodScannerUITests;
+			sourceTree = "<group>";
+		};
+		4D9F45732CFBE0B9000C77FA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4D9F45742CFBE0D3000C77FA /* MeshGeometryExtensions.swift */,
+				4D9F45762CFBE0E0000C77FA /* ImageProcessing.swift */,
+				4D9F457C2CFBEB9B000C77FA /* CVPixelBuffer+UIImage.swift */,
+				4D9F457E2CFBEFD1000C77FA /* MeshResource+ARKit.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DCAE65B2CFFA4B30052AEA5 /* Launch Screen.storyboard in Resources */,
 				4D9F454D2CFB5A8C000C77FA /* Preview Assets.xcassets in Resources */,
 				4D9F454A2CFB5A8C000C77FA /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +303,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D9F45772CFBE0E0000C77FA /* ImageProcessing.swift in Sources */,
+				4D9F45752CFBE0D3000C77FA /* MeshGeometryExtensions.swift in Sources */,
+				4D9F45792CFBE117000C77FA /* Coordinator.swift in Sources */,
+				4DCAE6592CFFA1210052AEA5 /* LoginView.swift in Sources */,
+				4DCAE6602CFFA9400052AEA5 /* HealthManager.swift in Sources */,
+				4DCAE6632CFFB3CD0052AEA5 /* OpenAIResponseView.swift in Sources */,
 				4D9F45482CFB5A8B000C77FA /* ContentView.swift in Sources */,
+				4DCAE65E2CFFA8F70052AEA5 /* LobbyView.swift in Sources */,
+				4D9F457D2CFBEB9B000C77FA /* CVPixelBuffer+UIImage.swift in Sources */,
 				4D9F45462CFB5A8B000C77FA /* AppDelegate.swift in Sources */,
+				4D9F457F2CFBEFD1000C77FA /* MeshResource+ARKit.swift in Sources */,
+				4D9F457B2CFBE195000C77FA /* MeshExporter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,15 +475,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FoodScanner/FoodScanner.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FoodScanner/Preview Content\"";
 				DEVELOPMENT_TEAM = K5X4S3MUSZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodScanner/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app uses HealthKit to access your blood glucose, exercise, and sleep data for tracking and analysis.\nThis app uses HealthKit to access your blood glucose, exercise, and sleep data for tracking and analysis.\nThis app uses HealthKit to access your blood glucose, exercise, and sleep data for tracking and analysis.\nThis aap uses healthkit to access your glucose, sleep and exercise information";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app uses healthkit to record and update your data";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -450,15 +511,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FoodScanner/FoodScanner.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FoodScanner/Preview Content\"";
 				DEVELOPMENT_TEAM = K5X4S3MUSZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodScanner/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app uses HealthKit to access your blood glucose, exercise, and sleep data for tracking and analysis.\nThis app uses HealthKit to access your blood glucose, exercise, and sleep data for tracking and analysis.\nThis app uses HealthKit to access your blood glucose, exercise, and sleep data for tracking and analysis.\nThis aap uses healthkit to access your glucose, sleep and exercise information";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app uses healthkit to record and update your data";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
